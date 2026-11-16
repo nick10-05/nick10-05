@@ -51,16 +51,18 @@ My hostel ran on a WhatsApp group: complaints got buried, the same issue came ba
 <td width="50%" valign="top">
 
 ### [RelayForge](https://github.com/nick10-05/RelayForge)
-`⚙️ backend reliability`
+`⚙️ backend reliability · 41 test files`
 
-Webhooks fail silently. RelayForge sits in between: it receives events, delivers them to your destinations with retries, records every attempt, and lets you replay any event from a dashboard.
+Webhooks fail silently. RelayForge sits in between: it stores every event before acknowledging it, delivers it with retries, crash recovery and a dead-letter state, and lets you replay anything from a dashboard.
 
-- Delivery attempt history and one-click replay
-- Secrets redacted from logs, with a test that proves it
-- CI runs lint, typecheck and Vitest against a **real Postgres 18**, then builds the Docker image
-- Monorepo: API server + React dashboard
+- **At-least-once delivery:** transactional outbox, Postgres queue with `SKIP LOCKED` + leases, fenced completion
+- **Security:** SSRF-safe outbound client, Standard Webhooks signing, AES-GCM secrets at rest
+- **Proven by tests:** concurrency, crash recovery and poison payloads against a chaos receiver, on real Postgres in CI
+- One Docker image, **₹0/month** on Render + Neon
 
-`Node.js 24` `TypeScript` `PostgreSQL` `Drizzle` `React` `Docker` `Neon`
+`Node.js 24` `TypeScript` `Fastify` `PostgreSQL` `Drizzle` `React` `Docker`
+
+**[Design & README →](https://github.com/nick10-05/RelayForge#readme)**
 
 </td>
 </tr>
