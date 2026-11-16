@@ -1,30 +1,137 @@
-# Hi, I'm Nikhil Chandrakanti 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Nikhil Chandrakanti — full-stack engineer who ships software real people use" src="assets/banner-dark.svg" width="100%">
+</picture>
 
-**Final-year CS & IT student at MVSR Engineering College, Hyderabad** · Full-stack developer (React · Node.js · TypeScript · PostgreSQL)
+<p align="center">
+  <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-live%20%26%20in%20use-34D399?style=flat-square&logo=render&logoColor=white" alt="HostelConnect live"></a>
+  <a href="https://www.linkedin.com/in/nnikhilc97/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://leetcode.com/u/nikku-2004"><img src="https://img.shields.io/badge/LeetCode-daily%20DSA-F5A524?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"></a>
+  <img src="https://img.shields.io/badge/open%20to-SDE%20%2F%20Full--Stack%20roles%20·%202027-14182A?style=flat-square" alt="Open to SDE roles, 2027 graduate">
+</p>
 
-I build practical web apps that solve real problems, like the management app now running my own hostel.
+```ts
+const nikhil = {
+  studying:   "CS & IT, MVSR Engineering College (final year)",
+  focus:      ["full-stack web", "backend reliability", "dev tools"],
+  shipped:    "HostelConnect: runs my own 200-student hostel",
+  building:   "Repository Intelligence (final-year project)",
+  lookingFor: "SDE / Full-Stack roles, graduating 2027",
+};
+```
 
-- 🔨 **Currently building:** HostelConnect (live) and my final-year project, a *Repository Intelligence & Software Change Impact Analysis System*
-- 🎯 **Looking for:** Software Engineer / Full-Stack roles (2027 graduate)
-- 🧠 **Practising:** Data Structures & Algorithms on [LeetCode](https://leetcode.com/u/nikku-2004)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="" src="assets/divider-dark.svg" width="100%">
+</picture>
 
----
+## 🚀 Shipped
 
-### ⭐ Featured projects
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[HostelConnect](https://github.com/nick10-05/HOSTELCONNECT)** · [Live demo](https://hostelconnect-o8e6.onrender.com) | Hostel management app replacing a chaotic WhatsApp group: complaints with rate limits, announcements, fee tracking with UPI, return polls. Built for my own hostel (up to 200 students). | React, TypeScript, Node.js, Express, PostgreSQL (Supabase), Vitest, GitHub Actions |
-| **[Sundara Kanda](https://github.com/nick10-05/sundara-sara-sangam)** | Explore Ramayana verses with audio narration and summaries in 6 languages. | React, TypeScript, Vite, shadcn/ui, Supabase |
+### [HostelConnect](https://github.com/nick10-05/HOSTELCONNECT)
+`🟢 live · real users`
 
----
+My hostel ran on a WhatsApp group: complaints got buried, the same issue came back daily, and the owner locked the group. I replaced it with an owner-first app for complaints, announcements, fee tracking with UPI, and post-holiday return polls.
 
-### 🛠️ Tech I work with
+- **200 students**, two buildings, **₹0/month** on free tiers
+- **20+ merged PRs**: every change shipped from its own branch
+- Per-account login limits, sessions revoked on password change
+- Photos compressed in the browser and auto-deleted after 48 h
 
-[![Skills](https://skillicons.dev/icons?i=cpp,java,py,js,ts,react,nodejs,express,postgres,supabase,tailwind,vite,git,linux&perline=8)](https://skillicons.dev)
+`React` `TypeScript` `Express` `PostgreSQL` `Supabase` `Vitest` `GitHub Actions`
 
----
+**[Live app →](https://hostelconnect-o8e6.onrender.com)**
 
-### 📫 Reach me
+</td>
+<td width="50%" valign="top">
 
-[LinkedIn](https://www.linkedin.com/in/nnikhilc97/) · [LeetCode](https://leetcode.com/u/nikku-2004)
+### [RelayForge](https://github.com/nick10-05/RelayForge)
+`⚙️ backend reliability`
+
+Webhooks fail silently. RelayForge sits in between: it receives events, delivers them to your destinations with retries, records every attempt, and lets you replay any event from a dashboard.
+
+- Delivery attempt history and one-click replay
+- Secrets redacted from logs, with a test that proves it
+- CI runs lint, typecheck and Vitest against a **real Postgres 18**, then builds the Docker image
+- Monorepo: API server + React dashboard
+
+`Node.js 24` `TypeScript` `PostgreSQL` `Drizzle` `React` `Docker` `Neon`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Sundara Kanda](https://github.com/nick10-05/sundara-sara-sangam)
+`🎧 audio · 6 languages`
+
+Explore verses 11–20 of the Sundara Kanda with chanted audio, word-by-word meanings, and summaries in six languages.
+
+`React` `TypeScript` `Vite` `shadcn/ui` `Supabase`
+
+</td>
+<td width="50%" valign="top">
+
+### Repository Intelligence
+`🔨 in progress · final-year project`
+
+Point it at a codebase and see how it fits together: architecture, dependency graphs, and the files a change is likely to break *before* you merge it.
+
+`Static analysis` `Dependency graphs` `Change impact`
+
+</td>
+</tr>
+</table>
+
+## 📡 Live from my commits
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg">
+  <img alt="My six most recent commits across my public repositories" src="assets/terminal-dark.svg" width="100%">
+</picture>
+
+<sub>Rebuilt every day by a <a href=".github/workflows/build-profile.yml">GitHub Action</a> that reads the GitHub API and redraws these SVGs, banner included. This profile ships the same way my projects do.</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="" src="assets/divider-dark.svg" width="100%">
+</picture>
+
+## 🧭 How I build
+
+| Habit | Where you can check it |
+|---|---|
+| Every change goes through a pull request | HostelConnect's PR history |
+| Tests run in CI on every push | RelayForge: lint → typecheck → tests on real Postgres → Docker build |
+| Security from day one, not bolted on | Login limits, session revocation, no secrets in git |
+| Design for real constraints | HostelConnect runs 200 users for ₹0 a month |
+| READMEs explain *why*, not only *how* | Start with HostelConnect's "Why it exists" |
+
+## 🛠️ Toolbox
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp" alt="Languages" height="40"><br>
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,express,postgres,supabase" alt="Frontend, backend and data" height="40"><br>
+  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,linux,vscode" alt="Shipping and tooling" height="40">
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+  <img alt="" src="assets/divider-dark.svg" width="100%">
+</picture>
+
+## 📍 Now
+
+- 🔨 **Building** Repository Intelligence, my final-year project
+- 🚀 **Up next:** DriveRadar, a placement-notice tracker for my batch
+- 🧠 **Daily:** data structures and algorithms on [LeetCode](https://leetcode.com/u/nikku-2004)
+
+<p align="center"><sub><code>git commit -m "thanks for reading this far"</code></sub></p>
