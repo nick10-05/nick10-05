@@ -211,7 +211,7 @@ def api(path, token):
         return json.load(r)
 
 
-def fetch_commits(token, limit=6):
+def fetch_commits(token, limit=6, per_repo=2):
     repos = api(f"/users/{USER}/repos?type=owner&sort=pushed&per_page=30", token)
     repos = [r for r in repos if not r["fork"] and r["name"] != USER][:8]
     commits = []
@@ -221,13 +221,18 @@ def fetch_commits(token, limit=6):
         except Exception as e:  # empty repo, etc.
             print(f"skip {r['name']}: {e}", file=sys.stderr)
             continue
+        kept = 0
         for c in items:
             msg = c["commit"]["message"].split("\n")[0]
             if msg.startswith("Merge "):
                 continue
             commits.append({"sha": c["sha"], "repo": r["name"], "msg": msg,
+                            "when": c["commit"]["author"]["date"],
                             "date": c["commit"]["author"]["date"][:10]})
-    commits.sort(key=lambda c: c["date"], reverse=True)
+            kept += 1
+            if kept == per_repo:  # show range across projects, not one busy repo
+                break
+    commits.sort(key=lambda c: c["when"], reverse=True)
     return commits[:limit]
 
 
