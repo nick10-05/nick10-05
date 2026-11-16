@@ -1,0 +1,38 @@
+name: Build profile assets
+
+on:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/build-profile.yml"]
+  schedule:
+    - cron: "17 1 * * *" # daily, 06:47 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate animated SVGs from my latest commits
+        run: python3 scripts/build_profile.py assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "chore: refresh profile assets"
+          git push
