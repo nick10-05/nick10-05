@@ -22,42 +22,42 @@
   
   <g class="row" style="animation-delay:1.90s">
     <text x="48" y="126" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C97A00">8cf7048</tspan><tspan x="148" fill="#0F8F80">RelayForge</tspan><tspan x="385" fill="#14182A">chore: shorter log lines, a favicon, Node 24.16+</tspan>
+      <tspan fill="#C97A00">f501aac</tspan><tspan x="148" fill="#0F8F80">driveradar</tspan><tspan x="385" fill="#14182A">docs: add DriveRadar project design</tspan>
     </text>
-    <text x="1152" y="126" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-16</text>
+    <text x="1152" y="126" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-18</text>
   </g>
   <g class="row" style="animation-delay:2.22s">
     <text x="48" y="162" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C97A00">f91997c</tspan><tspan x="148" fill="#0F8F80">RelayForge</tspan><tspan x="385" fill="#14182A">fix: retry startup migrations while the database wakes …</tspan>
+      <tspan fill="#C97A00">094e33a</tspan><tspan x="148" fill="#0F8F80">HOSTELCONNECT</tspan><tspan x="385" fill="#14182A">test: tidy header comments and suite names</tspan>
     </text>
-    <text x="1152" y="162" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-16</text>
+    <text x="1152" y="162" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-17</text>
   </g>
   <g class="row" style="animation-delay:2.54s">
     <text x="48" y="198" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C97A00">83fb65f</tspan><tspan x="148" fill="#0F8F80">HOSTELCONNECT</tspan><tspan x="385" fill="#14182A">docs: record the production launch checks of 2026-11-17</tspan>
+      <tspan fill="#C97A00">b4b4774</tspan><tspan x="148" fill="#0F8F80">HOSTELCONNECT</tspan><tspan x="385" fill="#14182A">chore: tidy section comments in services</tspan>
     </text>
-    <text x="1152" y="198" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-16</text>
+    <text x="1152" y="198" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-17</text>
   </g>
   <g class="row" style="animation-delay:2.86s">
     <text x="48" y="234" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C97A00">0398087</tspan><tspan x="148" fill="#0F8F80">HOSTELCONNECT</tspan><tspan x="385" fill="#14182A">launch prep: Brevo in the Privacy draft, and today&#x27;s de…</tspan>
+      <tspan fill="#C97A00">f455a9a</tspan><tspan x="148" fill="#0F8F80">RelayForge</tspan><tspan x="385" fill="#14182A">fix: keep long destination hosts inside the topology gr…</tspan>
     </text>
-    <text x="1152" y="234" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-16</text>
+    <text x="1152" y="234" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-17</text>
   </g>
   <g class="row" style="animation-delay:3.18s">
     <text x="48" y="270" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C97A00">031244d</tspan><tspan x="148" fill="#0F8F80">sundara-sara-sangam</tspan><tspan x="385" fill="#14182A">Add .env files to .gitignoreIgnore .env files</tspan>
+      <tspan fill="#C97A00">c0268b0</tspan><tspan x="148" fill="#0F8F80">RelayForge</tspan><tspan x="385" fill="#14182A">feat: redesigned dashboard and landing page</tspan>
     </text>
-    <text x="1152" y="270" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-12</text>
+    <text x="1152" y="270" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-17</text>
   </g>
   <g class="row" style="animation-delay:3.50s">
     <text x="48" y="306" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C97A00">f138577</tspan><tspan x="148" fill="#0F8F80">sundara-sara-sangam</tspan><tspan x="385" fill="#14182A">Stop tracking .env (secrets belong in local env only)</tspan>
+      <tspan fill="#C97A00">031244d</tspan><tspan x="148" fill="#0F8F80">sundara-sara-sangam</tspan><tspan x="385" fill="#14182A">Add .env files to .gitignoreIgnore .env files</tspan>
     </text>
     <text x="1152" y="306" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A90A0">2026-11-12</text>
   </g>
   <g class="end">
     <text x="48" y="342" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18" fill="#0E9F6E">$<tspan class="cursor" fill="#C97A00"> ▍</tspan></text>
   </g>
-  <text x="1152" y="378" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12" fill="#8A90A0">synced from the GitHub API by GitHub Actions · latest push 2026-11-16</text>
+  <text x="1152" y="378" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12" fill="#8A90A0">synced from the GitHub API by GitHub Actions · latest push 2026-11-18</text>
 </svg>
