@@ -22,42 +22,42 @@
   
   <g class="row" style="animation-delay:1.90s">
     <text x="48" y="126" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">f501aac</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">docs: add DriveRadar project design</tspan>
+      <tspan fill="#F5A524">e84a344</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">feat: AI-assisted notice extraction with manual fallbac…</tspan>
     </text>
-    <text x="1152" y="126" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-18</text>
+    <text x="1152" y="126" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-19</text>
   </g>
   <g class="row" style="animation-delay:2.22s">
     <text x="48" y="162" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">094e33a</tspan><tspan x="148" fill="#2DD4BF">HOSTELCONNECT</tspan><tspan x="385" fill="#F2F4F8">test: tidy header comments and suite names</tspan>
+      <tspan fill="#F5A524">22bc144</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">feat: drives, eligibility and student feed (Day 3)</tspan>
     </text>
-    <text x="1152" y="162" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-17</text>
+    <text x="1152" y="162" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-19</text>
   </g>
   <g class="row" style="animation-delay:2.54s">
     <text x="48" y="198" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">b4b4774</tspan><tspan x="148" fill="#2DD4BF">HOSTELCONNECT</tspan><tspan x="385" fill="#F2F4F8">chore: tidy section comments in services</tspan>
+      <tspan fill="#F5A524">863d226</tspan><tspan x="148" fill="#2DD4BF">HOSTELCONNECT</tspan><tspan x="385" fill="#F2F4F8">docs: bring RECOVERY.md up to date for the handover</tspan>
     </text>
-    <text x="1152" y="198" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-17</text>
+    <text x="1152" y="198" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-18</text>
   </g>
   <g class="row" style="animation-delay:2.86s">
     <text x="48" y="234" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">f455a9a</tspan><tspan x="148" fill="#2DD4BF">RelayForge</tspan><tspan x="385" fill="#F2F4F8">fix: keep long destination hosts inside the topology gr…</tspan>
+      <tspan fill="#F5A524">c2b4855</tspan><tspan x="148" fill="#2DD4BF">HOSTELCONNECT</tspan><tspan x="385" fill="#F2F4F8">ci: block on the app&#x27;s runtime dependencies; report bui…</tspan>
     </text>
-    <text x="1152" y="234" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-17</text>
+    <text x="1152" y="234" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-18</text>
   </g>
   <g class="row" style="animation-delay:3.18s">
     <text x="48" y="270" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">c0268b0</tspan><tspan x="148" fill="#2DD4BF">RelayForge</tspan><tspan x="385" fill="#F2F4F8">feat: redesigned dashboard and landing page</tspan>
+      <tspan fill="#F5A524">f455a9a</tspan><tspan x="148" fill="#2DD4BF">RelayForge</tspan><tspan x="385" fill="#F2F4F8">fix: keep long destination hosts inside the topology gr…</tspan>
     </text>
     <text x="1152" y="270" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-17</text>
   </g>
   <g class="row" style="animation-delay:3.50s">
     <text x="48" y="306" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">031244d</tspan><tspan x="148" fill="#2DD4BF">sundara-sara-sangam</tspan><tspan x="385" fill="#F2F4F8">Add .env files to .gitignoreIgnore .env files</tspan>
+      <tspan fill="#F5A524">c0268b0</tspan><tspan x="148" fill="#2DD4BF">RelayForge</tspan><tspan x="385" fill="#F2F4F8">feat: redesigned dashboard and landing page</tspan>
     </text>
-    <text x="1152" y="306" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-12</text>
+    <text x="1152" y="306" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-17</text>
   </g>
   <g class="end">
     <text x="48" y="342" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18" fill="#34D399">$<tspan class="cursor" fill="#F5A524"> ▍</tspan></text>
   </g>
-  <text x="1152" y="378" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12" fill="#5B667D">synced from the GitHub API by GitHub Actions · latest push 2026-11-18</text>
+  <text x="1152" y="378" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12" fill="#5B667D">synced from the GitHub API by GitHub Actions · latest push 2026-11-19</text>
 </svg>
