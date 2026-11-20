@@ -5,9 +5,9 @@
 </picture>
 
 <p align="center">
-  <a href="https://relayforge-r0l7.onrender.com"><img src="https://img.shields.io/badge/RelayForge-live-6366F1?style=for-the-badge&logo=render&logoColor=white" alt="RelayForge live"></a>
-  <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-deployed-EC4899?style=for-the-badge&logo=render&logoColor=white" alt="HostelConnect live"></a>
-  <a href="https://driveradar-mocha.vercel.app"><img src="https://img.shields.io/badge/DriveRadar-live-22D3EE?style=for-the-badge&logo=vercel&logoColor=white" alt="DriveRadar live"></a>
+  <a href="https://relayforge-r0l7.onrender.com"><img src="https://img.shields.io/badge/RelayForge-deployed-6366F1?style=for-the-badge&logo=render&logoColor=white" alt="RelayForge deployed"></a>
+  <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-owner%20pilot%20planned-EC4899?style=for-the-badge&logo=render&logoColor=white" alt="HostelConnect owner pilot planned"></a>
+  <a href="https://driveradar-mocha.vercel.app"><img src="https://img.shields.io/badge/DriveRadar-deployed-22D3EE?style=for-the-badge&logo=vercel&logoColor=white" alt="DriveRadar deployed"></a>
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/nnikhilc97/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -18,7 +18,7 @@
 const nikhil = {
   studying:   "CS & IT, MVSR Engineering College (final year)",
   focus:      ["full-stack web", "backend reliability", "applied AI"],
-  shipped:    ["RelayForge", "HostelConnect", "DriveRadar"],   // all deployed, all ₹0/month
+  deployed: ["RelayForge", "HostelConnect", "DriveRadar"], // all deployed, all ₹0/month
   building:   "Repository Intelligence (final-year project)",
   lookingFor: "SDE / Full-Stack roles, graduating 2027",
 };
@@ -80,7 +80,7 @@ Placement notices reach my batch from emails, WhatsApp, the portal and Telegram.
 
 - **AI with guardrails:** the LLM only extracts fields; every value needs an evidence quote from the notice, and a human approves every drive
 - **Measured, not vibes:** an eval harness reports per-field accuracy, hallucination rate and branch precision/recall against a golden set
-- **Reliable on free hosting:** a GitHub Actions cron plus a `UNIQUE` constraint gives exactly-once Telegram reminders, 24 h and 3 h before each deadline
+- **Reliable scheduling:** GitHub Actions cron with database-level deduplication to prevent duplicate reminder records
 
 **[Live app](https://driveradar-mocha.vercel.app)** · **[Design doc](https://github.com/nick10-05/driveradar/blob/main/docs/DESIGN.md)**
 
