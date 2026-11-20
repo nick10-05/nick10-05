@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="DriveRadar: AI-assisted placement-drive radar for my whole batch.">
+  <style>
+    .fade { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg-driveradar" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBFAFF"/><stop offset="1" stop-color="#F1EEFF"/></linearGradient>
+    <linearGradient id="pg-driveradar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#10B981"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#6366F1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0;420;0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sw-driveradar" x1="0" x2="1"><stop offset="0" stop-color="#10B981"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+    <filter id="b-driveradar" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+    <clipPath id="c-driveradar"><rect width="1200" height="260" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c-driveradar)">
+    <rect width="1200" height="260" fill="url(#bg-driveradar)"/>
+    <circle cx="1080" cy="40" r="170" fill="#22D3EE" opacity="0.17" filter="url(#b-driveradar)">
+      <animate attributeName="cx" values="1080;900;1080" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="260" r="140" fill="#6366F1" opacity="0.13" filter="url(#b-driveradar)">
+      <animate attributeName="cy" values="260;200;260" dur="11s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="1" y="1" width="1198" height="258" rx="19" fill="none" stroke="#E4E0F5" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="256" rx="18" fill="none" stroke="url(#sw-driveradar)" stroke-width="2.5"
+        stroke-dasharray="523 2381" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-2904" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <g class="fade" style="animation-delay:.05s">
+    <text x="56" y="62" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="14" font-weight="700" fill="#22D3EE" letter-spacing="2">03 /</text>
+    <rect x="104" y="44" width="106" height="26" rx="13" fill="#059669" fill-opacity=".12" stroke="#059669" stroke-opacity=".45"/>
+    <circle cx="119" cy="57" r="4" fill="#059669"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="130" y="62" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12" font-weight="700" fill="#059669" letter-spacing="1">LIVE · AI</text>
+  </g>
+  <g class="fade" style="animation-delay:.2s">
+    <text x="54" y="118" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="46" font-weight="800" letter-spacing="-1" fill="url(#pg-driveradar)">DriveRadar</text>
+  </g>
+  <g class="fade" style="animation-delay:.35s">
+    <text x="56" y="150" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="19" font-weight="600" fill="#12142B">AI-assisted placement-drive radar for my whole batch.</text>
+    <text x="56" y="176" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="14" fill="#4B5170">LLM notice extraction with a hallucination guard · eligibility engine · Telegram alerts</text>
+  </g>
+  
+    <g class="fade" style="animation-delay:0.50s">
+      <rect x="812" y="58" width="116" height="104" rx="16" fill="#FFFFFF" fill-opacity=".65" stroke="#FFFFFF" stroke-opacity=".9"/>
+      <text x="870" y="106" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="28" font-weight="800" fill="url(#pg-driveradar)">99%</text>
+      <text x="870" y="132" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="11.5" fill="#4B5170">backend test</text><text x="870" y="147" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="11.5" fill="#4B5170">coverage</text>
+    </g>
+    <g class="fade" style="animation-delay:0.65s">
+      <rect x="940" y="58" width="116" height="104" rx="16" fill="#FFFFFF" fill-opacity=".65" stroke="#FFFFFF" stroke-opacity=".9"/>
+      <text x="998" y="106" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="22" font-weight="800" fill="url(#pg-driveradar)">24h·3h</text>
+      <text x="998" y="132" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="11.5" fill="#4B5170">deadline alerts</text>
+    </g>
+    <g class="fade" style="animation-delay:0.80s">
+      <rect x="1068" y="58" width="116" height="104" rx="16" fill="#FFFFFF" fill-opacity=".65" stroke="#FFFFFF" stroke-opacity=".9"/>
+      <text x="1126" y="106" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="28" font-weight="800" fill="url(#pg-driveradar)">1×</text>
+      <text x="1126" y="132" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="11.5" fill="#4B5170">exactly-once</text><text x="1126" y="147" text-anchor="middle" font-family='-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif' font-size="11.5" fill="#4B5170">reminders</text>
+    </g>
+  <g class="fade" style="animation-delay:0.80s"><rect x="56" y="196" width="103" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="108" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">Python 3.13</text></g><g class="fade" style="animation-delay:0.86s"><rect x="167" y="196" width="74" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="204" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">FastAPI</text></g><g class="fade" style="animation-delay:0.92s"><rect x="249" y="196" width="111" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="305" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">SQLAlchemy 2</text></g><g class="fade" style="animation-delay:0.98s"><rect x="368" y="196" width="118" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="427" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">PostgreSQL 17</text></g><g class="fade" style="animation-delay:1.04s"><rect x="494" y="196" width="81" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="535" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">React 19</text></g><g class="fade" style="animation-delay:1.10s"><rect x="583" y="196" width="96" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="631" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">TypeScript</text></g><g class="fade" style="animation-delay:1.16s"><rect x="687" y="196" width="81" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="728" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">Telegram</text></g><g class="fade" style="animation-delay:1.22s"><rect x="777" y="196" width="44" height="28" rx="14" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".35"/><text x="799" y="215" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="12.5" fill="#12142B">LLM</text></g>
+</svg>
