@@ -22,13 +22,13 @@
   
   <g class="row" style="animation-delay:1.90s">
     <text x="48" y="126" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">e84a344</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">feat: AI-assisted notice extraction with manual fallbac…</tspan>
+      <tspan fill="#F5A524">1ab49c6</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">feat: Telegram linking, webhook and new-drive alerts (D…</tspan>
     </text>
     <text x="1152" y="126" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-19</text>
   </g>
   <g class="row" style="animation-delay:2.22s">
     <text x="48" y="162" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#F5A524">22bc144</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">feat: drives, eligibility and student feed (Day 3)</tspan>
+      <tspan fill="#F5A524">2e3b9c7</tspan><tspan x="148" fill="#2DD4BF">driveradar</tspan><tspan x="385" fill="#F2F4F8">fix: handle backend cold start with retries and a wakin…</tspan>
     </text>
     <text x="1152" y="162" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#5B667D">2026-11-19</text>
   </g>
