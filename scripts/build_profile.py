@@ -62,7 +62,7 @@ PROJECTS = [
          grad=("#10B981", "#22D3EE", "#6366F1"),
          tagline="AI placement-drive radar for my batch.",
          sub="Guarded LLM extraction · eligibility engine · Telegram alerts",
-         stats=[("99%", "backend test coverage"), ("24h·3h", "deadline alerts"), ("1×", "exactly-once reminders")],
+         stats=[("99%", "backend test coverage"), ("521", "backend tests"), ("73", "frontend tests")],
          tech=["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "React", "TypeScript", "LLM"]),
 ]
 
