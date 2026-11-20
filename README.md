@@ -6,21 +6,19 @@
 
 <p align="center">
   <a href="https://relayforge-r0l7.onrender.com"><img src="https://img.shields.io/badge/RelayForge-live-6366F1?style=for-the-badge&logo=render&logoColor=white" alt="RelayForge live"></a>
-  <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-live%20·%20real%20users-EC4899?style=for-the-badge&logo=render&logoColor=white" alt="HostelConnect live"></a>
+  <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-deployed-EC4899?style=for-the-badge&logo=render&logoColor=white" alt="HostelConnect live"></a>
   <a href="https://driveradar-mocha.vercel.app"><img src="https://img.shields.io/badge/DriveRadar-live-22D3EE?style=for-the-badge&logo=vercel&logoColor=white" alt="DriveRadar live"></a>
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/nnikhilc97/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://leetcode.com/u/nikku-2004"><img src="https://img.shields.io/badge/LeetCode-daily%20DSA-F5A524?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"></a>
-  <img src="https://img.shields.io/badge/open%20to-SDE%20%2F%20Full--Stack%20·%202027-8B5CF6?style=flat-square" alt="Open to SDE roles, 2027 graduate">
-  <img src="https://komarev.com/ghpvc/?username=nick10-05&style=flat-square&color=22D3EE&label=profile%20views" alt="Profile views">
 </p>
 
 ```ts
 const nikhil = {
   studying:   "CS & IT, MVSR Engineering College (final year)",
   focus:      ["full-stack web", "backend reliability", "applied AI"],
-  shipped:    ["RelayForge", "HostelConnect", "DriveRadar"],   // all live, all ₹0/month
+  shipped:    ["RelayForge", "HostelConnect", "DriveRadar"],   // all deployed, all ₹0/month
   building:   "Repository Intelligence (final-year project)",
   lookingFor: "SDE / Full-Stack roles, graduating 2027",
 };
@@ -46,7 +44,7 @@ Webhooks from Stripe, GitHub or Razorpay are fire-and-forget: if your server is 
 
 - **At-least-once delivery engine:** transactional outbox, Postgres as the queue (`FOR UPDATE SKIP LOCKED` + leases), fenced completion, poison-payload protection
 - **Security-first:** SSRF-safe outbound client with pinned DNS, Standard Webhooks signing, AES-256-GCM secrets at rest, argon2id, tenant isolation
-- **Proven, not claimed:** 555 tests on real PostgreSQL 18 (≈95% coverage), a chaos receiver, k6 load tests, and 38,260 of 38,260 events delivered after the server was killed mid-run
+- **Proven, not claimed:** 555 tests on real PostgreSQL 18 (≈95% server line coverage), a chaos receiver, local k6 load tests (665 req/s peak ingest), and a crash test where the server was killed mid-run and all 38,260 events were still delivered
 
 **[Live demo](https://relayforge-r0l7.onrender.com)** · **[API docs](https://relayforge-r0l7.onrender.com/api/v1/docs)** · **[Design doc](https://github.com/nick10-05/RelayForge/blob/main/docs/design.md)** · **[ADRs](https://github.com/nick10-05/RelayForge/tree/main/docs/adr)**
 
@@ -60,7 +58,7 @@ Webhooks from Stripe, GitHub or Razorpay are fire-and-forget: if your server is 
 </picture>
 </a>
 
-My hostel ran on a WhatsApp group: complaints got buried, the same issue came back daily, and the owner locked the group. HostelConnect replaced it, and it runs my own hostel today.
+My hostel ran on a WhatsApp group: complaints got buried, the same issue came back daily, and the owner locked the group. I built HostelConnect to replace it, designed around how my own hostel actually works.
 
 - **Full product:** owner dashboard, complaints with timelines, notices, fee cycles with UPI QR, post-holiday return polls, CSV import, rejoin requests
 - **Production-grade ops:** row-level security, a least-privilege DB role, hourly idempotent jobs, nightly `age`-encrypted backups and a tested restore drill
@@ -178,7 +176,7 @@ Placement notices reach my batch from emails, WhatsApp, the portal and Telegram.
 | Tests run in CI on every push, against real databases | RelayForge and DriveRadar CI: lint → typecheck → tests on real Postgres → Docker build |
 | Security from day one, not bolted on | SSRF guard, CSRF checks, session revocation, encrypted secrets and backups |
 | Decisions are written down | RelayForge's ADRs, DriveRadar's DESIGN.md, HostelConnect's decisions.md |
-| Design for real constraints | Three live apps, ₹0 a month between them |
+| Design for real constraints | Three deployed apps, ₹0 a month between them |
 
 ## 📍 Now
 

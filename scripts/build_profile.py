@@ -45,20 +45,20 @@ MONO = 'ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospa
 SANS = '-apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif'
 
 PROJECTS = [
-    dict(slug="relayforge", rank="01", name="RelayForge", badge="LIVE · FLAGSHIP", dot="#818CF8",
+    dict(slug="relayforge", rank="01", name="RelayForge", badge="DEPLOYED · FLAGSHIP", dot="#818CF8",
          grad=("#A78BFA", "#6366F1", "#38BDF8"),
          tagline="Durable webhook relay. No event is ever lost.",
          sub="Outbox · Postgres queue with leases · SSRF-safe signed delivery",
-         stats=[("555", "tests on real Postgres"), ("665/s", "peak ingest (k6)"),
-                ("100%", "delivered after a crash")],
+         stats=[("555", "tests on real Postgres"), ("665/s", "peak ingest, local k6"),
+                ("100%", "delivered in crash test")],
          tech=["Node.js 24", "TypeScript", "Fastify", "PostgreSQL", "Drizzle", "React", "Docker", "k6"]),
-    dict(slug="hostelconnect", rank="02", name="HostelConnect", badge="LIVE · REAL USERS", dot="#EC4899",
+    dict(slug="hostelconnect", rank="02", name="HostelConnect", badge="DEPLOYED · BUILT FOR MY HOSTEL", dot="#EC4899",
          grad=("#FB923C", "#EC4899", "#8B5CF6"),
-         tagline="Replaced my hostel's WhatsApp chaos.",
+         tagline="Built to replace my hostel's WhatsApp chaos.",
          sub="Complaints · notices · UPI fees · polls · up to 200 students",
          stats=[("160+", "test files"), ("24", "SQL migrations"), ("₹0", "infra per month")],
          tech=["React", "TypeScript", "Express", "PostgreSQL", "Supabase", "Tailwind", "Docker"]),
-    dict(slug="driveradar", rank="03", name="DriveRadar", badge="LIVE · AI", dot="#22D3EE",
+    dict(slug="driveradar", rank="03", name="DriveRadar", badge="DEPLOYED · AI", dot="#22D3EE",
          grad=("#10B981", "#22D3EE", "#6366F1"),
          tagline="AI placement-drive radar for my batch.",
          sub="Guarded LLM extraction · eligibility engine · Telegram alerts",
@@ -141,7 +141,7 @@ def banner(t):
         f'<text class="role role{i}" style="animation-delay:{i * 5}s" x="64" y="214" font-family=\'{SANS}\' font-size="28" '
         f'fill="{t["sub"]}"><tspan fill="{t["cyan"]}" font-family=\'{MONO}\'>&gt; </tspan>{escape(r)}</text>'
         for i, r in enumerate(roles))
-    chips = [("3", "production apps"), ("240+", "test files"), ("₹0", "/ month infra")]
+    chips = [("3", "deployed apps"), ("240+", "test files"), ("₹0", "/ month infra")]
     chip_svg, x = [], 64
     for i, (big, small) in enumerate(chips):
         wdt = 44 + len(big) * 15 + len(small) * 9.4
