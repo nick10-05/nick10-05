@@ -58,7 +58,7 @@ Webhooks from Stripe, GitHub or Razorpay are fire-and-forget: if your server is 
 </picture>
 </a>
 
-My hostel ran on a WhatsApp group: complaints got buried, the same issue came back daily, and the owner locked the group. I built HostelConnect to replace it, designed around how my own hostel actually works.
+My hostel ran on a WhatsApp group: complaints got buried, the same issue came back daily, and the owner locked the group. I built HostelConnect to fix that, designed around real hostel workflows.
 
 - **Full product:** owner dashboard, complaints with timelines, notices, fee cycles with UPI QR, post-holiday return polls, CSV import, rejoin requests
 - **Production-grade ops:** row-level security, a least-privilege DB role, hourly idempotent jobs, nightly `age`-encrypted backups and a tested restore drill
