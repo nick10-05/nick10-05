@@ -5,7 +5,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://relayforge-r0l7.onrender.com"><img src="https://img.shields.io/badge/RelayForge-live-F59E0B?style=for-the-badge&logo=render&logoColor=white" alt="RelayForge live"></a>
+  <a href="https://relayforge-r0l7.onrender.com"><img src="https://img.shields.io/badge/RelayForge-live-6366F1?style=for-the-badge&logo=render&logoColor=white" alt="RelayForge live"></a>
   <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-live%20·%20real%20users-EC4899?style=for-the-badge&logo=render&logoColor=white" alt="HostelConnect live"></a>
   <a href="https://driveradar-mocha.vercel.app"><img src="https://img.shields.io/badge/DriveRadar-live-22D3EE?style=for-the-badge&logo=vercel&logoColor=white" alt="DriveRadar live"></a>
 </p>
@@ -146,12 +146,12 @@ Placement notices reach my batch from emails, WhatsApp, the portal and Telegram.
   </tr>
 </table>
 
-## 🏙️ Contribution city
+## 🪐 My year in orbit
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contrib-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/contrib-light.svg">
-  <img alt="My contributions over the last 12 months as an isometric 3D city, with streak stats" src="assets/contrib-dark.svg" width="100%">
+  <img alt="My contributions over the last 12 months as a ring of weekly bars, with streak stats" src="assets/contrib-dark.svg" width="100%">
 </picture>
 
 ## 📡 Live from my commits
@@ -185,5 +185,13 @@ Placement notices reach my batch from emails, WhatsApp, the portal and Telegram.
 - 🔨 **Building** Repository Intelligence, my final-year project
 - 🧠 **Daily:** data structures and algorithms on [LeetCode](https://leetcode.com/u/nikku-2004)
 - 🤝 **Open to** SDE / full-stack internships and roles
+
+## 📫 Reach me
+
+<p>
+  <a href="https://www.linkedin.com/in/nnikhilc97/"><img src="https://img.shields.io/badge/LinkedIn-nnikhilc97-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://leetcode.com/u/nikku-2004"><img src="https://img.shields.io/badge/LeetCode-nikku--2004-F5A524?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"></a>
+  <a href="https://github.com/nick10-05?tab=repositories"><img src="https://img.shields.io/badge/All%20repositories-nick10--05-181717?style=for-the-badge&logo=github&logoColor=white" alt="All repositories"></a>
+</p>
 
 <p align="center"><sub><code>git commit -m "thanks for reading this far"</code></sub></p>

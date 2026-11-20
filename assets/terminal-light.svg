@@ -6,8 +6,14 @@
     @keyframes show { to { opacity: 1; } }
     .cursor { animation: blink 1.1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .fade, .bar, .row, .end { animation: none !important; opacity: 1 !important; }
+      .role { animation: none !important; opacity: 0; } .role0 { opacity: 1; }
+      .motion { display: none; } .still { display: inline; }
+    }
+    .still { display: none; }
   </style>
-  <defs><clipPath id="cmd"><rect x="48" y="66" height="36" width="0"><animate attributeName="width" values="0.0;10.8;21.7;32.5;43.4;54.2;65.1;76.0;86.8;97.6;108.5;119.3;130.2;141.0;151.9;162.8;173.6;184.4;195.3;206.2;217.0;227.8;238.7;249.5;260.4;271.2;282.1;292.9;303.8;314.6;325.5;336.3;347.2;358.1;368.9;379.8;390.6;401.4;412.3;423.1;434.0;444.8;455.7;466.6;477.4;488.2;499.1;509.9;520.8;531.6;542.5;553.4;564.2;575.0;585.9;596.8" dur="1.54s" begin="0.4s" fill="freeze" calcMode="discrete"/></rect></clipPath><linearGradient id="tedge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6D3AF0"/><stop offset=".5" stop-color="#0891B2"/><stop offset="1" stop-color="#DB2777"/><animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="10s" repeatCount="indefinite"/></linearGradient></defs>
+  <defs><clipPath id="cmd"><rect x="48" y="66" height="36" width="0"><animate attributeName="width" values="0.0;10.8;21.7;32.5;43.4;54.2;65.1;76.0;86.8;97.6;108.5;119.3;130.2;141.0;151.9;162.8;173.6;184.4;195.3;206.2;217.0;227.8;238.7;249.5;260.4;271.2;282.1;292.9;303.8;314.6;325.5;336.3;347.2;358.1;368.9;379.8;390.6;401.4;412.3;423.1;434.0;444.8;455.7;466.6;477.4;488.2;499.1;509.9;520.8;531.6;542.5;553.4;564.2;575.0;585.9;596.8" dur="1.54s" begin="0.4s" fill="freeze" calcMode="discrete"/></rect></clipPath><linearGradient id="tedge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6D3AF0"/><stop offset=".5" stop-color="#0891B2"/><stop offset="1" stop-color="#DB2777"/><animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="20s" repeatCount="indefinite"/></linearGradient></defs>
   <rect x="1" y="1" width="1198" height="392" rx="16" fill="#FFFFFF" stroke="url(#tedge)" stroke-opacity=".6" stroke-width="2"/>
   <path d="M2 17a15 15 0 0 1 15-15h1166a15 15 0 0 1 15 15v35H2z" fill="#F5F3FF"/>
   <circle cx="30" cy="27" r="7" fill="#FF5F57"/><circle cx="54" cy="27" r="7" fill="#FEBC2E"/><circle cx="78" cy="27" r="7" fill="#28C840"/>
@@ -22,37 +28,37 @@
   
   <g class="row" style="animation-delay:1.90s">
     <text x="48" y="126" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C2780A">98e5de1</tspan><tspan x="148" fill="#0891B2">driveradar</tspan><tspan x="385" fill="#12142B">docs: premium README redesign with animated banners</tspan>
+      <tspan fill="#C2780A">7317549</tspan><tspan x="148" fill="#0891B2">driveradar</tspan><tspan x="385" fill="#12142B">feat: premium UI redesign with aurora glass theme (Day …</tspan>
     </text>
     <text x="1152" y="126" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-20</text>
   </g>
   <g class="row" style="animation-delay:2.22s">
     <text x="48" y="162" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C2780A">47638d6</tspan><tspan x="148" fill="#0891B2">RelayForge</tspan><tspan x="385" fill="#12142B">docs: premium README redesign with animated banners</tspan>
+      <tspan fill="#C2780A">9d68b7e</tspan><tspan x="148" fill="#0891B2">driveradar</tspan><tspan x="385" fill="#12142B">docs: README, screenshots, demo data and video script (…</tspan>
     </text>
     <text x="1152" y="162" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-20</text>
   </g>
   <g class="row" style="animation-delay:2.54s">
     <text x="48" y="198" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C2780A">7317549</tspan><tspan x="148" fill="#0891B2">driveradar</tspan><tspan x="385" fill="#12142B">feat: premium UI redesign with aurora glass theme (Day …</tspan>
+      <tspan fill="#C2780A">863d226</tspan><tspan x="148" fill="#0891B2">HOSTELCONNECT</tspan><tspan x="385" fill="#12142B">docs: bring RECOVERY.md up to date for the handover</tspan>
     </text>
-    <text x="1152" y="198" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-20</text>
+    <text x="1152" y="198" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-18</text>
   </g>
   <g class="row" style="animation-delay:2.86s">
     <text x="48" y="234" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C2780A">863d226</tspan><tspan x="148" fill="#0891B2">HOSTELCONNECT</tspan><tspan x="385" fill="#12142B">docs: bring RECOVERY.md up to date for the handover</tspan>
+      <tspan fill="#C2780A">c2b4855</tspan><tspan x="148" fill="#0891B2">HOSTELCONNECT</tspan><tspan x="385" fill="#12142B">ci: block on the app&#x27;s runtime dependencies; report bui…</tspan>
     </text>
     <text x="1152" y="234" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-18</text>
   </g>
   <g class="row" style="animation-delay:3.18s">
     <text x="48" y="270" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C2780A">c2b4855</tspan><tspan x="148" fill="#0891B2">HOSTELCONNECT</tspan><tspan x="385" fill="#12142B">ci: block on the app&#x27;s runtime dependencies; report bui…</tspan>
+      <tspan fill="#C2780A">f455a9a</tspan><tspan x="148" fill="#0891B2">RelayForge</tspan><tspan x="385" fill="#12142B">fix: keep long destination hosts inside the topology gr…</tspan>
     </text>
-    <text x="1152" y="270" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-18</text>
+    <text x="1152" y="270" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-17</text>
   </g>
   <g class="row" style="animation-delay:3.50s">
     <text x="48" y="306" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="18">
-      <tspan fill="#C2780A">f455a9a</tspan><tspan x="148" fill="#0891B2">RelayForge</tspan><tspan x="385" fill="#12142B">fix: keep long destination hosts inside the topology gr…</tspan>
+      <tspan fill="#C2780A">c0268b0</tspan><tspan x="148" fill="#0891B2">RelayForge</tspan><tspan x="385" fill="#12142B">feat: redesigned dashboard and landing page</tspan>
     </text>
     <text x="1152" y="306" text-anchor="end" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace' font-size="15" fill="#8A8FA8">2026-11-17</text>
   </g>

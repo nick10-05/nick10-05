@@ -11,6 +11,6 @@
   <g>
     <rect x="0" y="10" width="360" height="4" rx="2" fill="url(#d)" filter="url(#dg)"/>
     <rect x="0" y="11" width="360" height="2" fill="url(#d)"/>
-    <animateTransform attributeName="transform" type="translate" values="-360 0;1200 0" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="-360 0;1200 0" dur="8s" repeatCount="indefinite"/>
   </g>
 </svg>
