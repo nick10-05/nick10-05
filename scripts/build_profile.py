@@ -64,6 +64,12 @@ PROJECTS = [
          sub="Guarded LLM extraction · eligibility engine · Telegram alerts",
          stats=[("99%", "backend test coverage"), ("521", "backend tests"), ("73", "frontend tests")],
          tech=["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "React", "TypeScript", "LLM"]),
+    dict(slug="cricketverse", rank="04", name="CricketVerse Arena", badge="DEPLOYED · OPEN SOURCE", dot="#F5A524",
+         grad=("#FACC15", "#F59E0B", "#10B981"),
+         tagline="3D online cricket with friends, in the browser.",
+         sub="Private rooms · authoritative game server · ball physics",
+         stats=[("11v11", "players per side, or 1v1"), ("30", "overs, max per innings"), ("₹0", "infra per month")],
+         tech=["React 19", "TypeScript", "Three.js", "Socket.IO", "Node.js", "Vite", "Docker"]),
 ]
 
 

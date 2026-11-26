@@ -8,6 +8,7 @@
   <a href="https://relayforge-r0l7.onrender.com"><img src="https://img.shields.io/badge/RelayForge-deployed-6366F1?style=for-the-badge&logo=render&logoColor=white" alt="RelayForge deployed"></a>
   <a href="https://hostelconnect-o8e6.onrender.com"><img src="https://img.shields.io/badge/HostelConnect-owner%20pilot%20planned-EC4899?style=for-the-badge&logo=render&logoColor=white" alt="HostelConnect owner pilot planned"></a>
   <a href="https://driveradar-mocha.vercel.app"><img src="https://img.shields.io/badge/DriveRadar-deployed-22D3EE?style=for-the-badge&logo=vercel&logoColor=white" alt="DriveRadar deployed"></a>
+  <a href="https://cricketverse-arena.onrender.com"><img src="https://img.shields.io/badge/CricketVerse-play%20now-F59E0B?style=for-the-badge&logo=render&logoColor=white" alt="CricketVerse Arena: play now"></a>
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/nnikhilc97/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -18,7 +19,7 @@
 const nikhil = {
   studying:   "CS & IT, MVSR Engineering College (final year)",
   focus:      ["full-stack web", "backend reliability", "applied AI"],
-  deployed: ["RelayForge", "HostelConnect", "DriveRadar"], // all deployed, all ₹0/month
+  deployed: ["RelayForge", "HostelConnect", "DriveRadar", "CricketVerse"], // all ₹0/month
   building:   "Repository Intelligence (final-year project)",
   lookingFor: "SDE / Full-Stack roles, graduating 2027",
 };
@@ -83,6 +84,24 @@ Placement notices reach my batch from emails, WhatsApp, the portal and Telegram.
 - **Reliable scheduling:** GitHub Actions cron with database-level deduplication to prevent duplicate reminder records
 
 **[Live app](https://driveradar-mocha.vercel.app)** · **[Design doc](https://github.com/nick10-05/driveradar/blob/main/docs/DESIGN.md)**
+
+<br>
+
+<a href="https://github.com/nick10-05/cricketverse">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-cricketverse-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-cricketverse-light.svg">
+  <img alt="CricketVerse Arena: 3D online cricket with friends" src="assets/card-cricketverse-dark.svg" width="100%">
+</picture>
+</a>
+
+An open-source 3D cricket game you play with friends straight from a link: no install, no account. Create a room, share the 5-letter code, and play anything from a 1v1 duel to a full 11-a-side match, from 1 to 30 overs.
+
+- **Authoritative multiplayer:** a Node + Socket.IO server owns the match state, so every player sees the same ball. Bots fill empty slots and take over if someone disconnects, and the host role passes on automatically
+- **Real cricket rules:** strike rotation, bowling quotas, wides, no-balls with free hits, byes, and every common dismissal including LBW, stumpings and run outs
+- **Built for the browser:** Three.js stadium with procedurally animated players, ball physics with swing, seam and spin, TV-style cameras and slow-motion replays, and quality settings down to a 2D mode for low-end phones
+
+**[Play it](https://cricketverse-arena.onrender.com)** · **[Source](https://github.com/nick10-05/cricketverse)** · **[v1.0.0 release](https://github.com/nick10-05/cricketverse/releases/tag/v1.0.0)**
 
 ### 🔭 Also on the radar
 
@@ -176,7 +195,7 @@ Placement notices reach my batch from emails, WhatsApp, the portal and Telegram.
 | Tests run in CI on every push, against real databases | RelayForge and DriveRadar CI: lint → typecheck → tests on real Postgres → Docker build |
 | Security from day one, not bolted on | SSRF guard, CSRF checks, session revocation, encrypted secrets and backups |
 | Decisions are written down | RelayForge's ADRs, DriveRadar's DESIGN.md, HostelConnect's decisions.md |
-| Design for real constraints | Three deployed apps, ₹0 a month between them |
+| Design for real constraints | Four deployed apps, ₹0 a month between them |
 
 ## 📍 Now
 
