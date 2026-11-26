@@ -132,7 +132,8 @@ An open-source 3D cricket game you play with friends straight from a link: no in
     <td><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi&theme=dark" height="42" alt="Node.js, Express, FastAPI">&nbsp;
       <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" height="28" alt="Fastify">
       <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" height="28" alt="Zod">
-      <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" height="28" alt="Pydantic"></td>
+      <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" height="28" alt="Pydantic">
+      <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white" height="28" alt="Socket.IO"></td>
   </tr>
   <tr>
     <td align="right"><b>Data</b></td>
