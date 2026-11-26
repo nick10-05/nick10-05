@@ -64,7 +64,7 @@ PROJECTS = [
          sub="Guarded LLM extraction · eligibility engine · Telegram alerts",
          stats=[("99%", "backend test coverage"), ("521", "backend tests"), ("73", "frontend tests")],
          tech=["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "React", "TypeScript", "LLM"]),
-    dict(slug="cricketverse", rank="04", name="CricketVerse Arena", badge="DEPLOYED · OPEN SOURCE", dot="#F5A524",
+    dict(slug="cricketverse", rank="04", name="CricketVerse Arena", short="CricketVerse", badge="DEPLOYED · OPEN SOURCE", dot="#F5A524",
          grad=("#FACC15", "#F59E0B", "#10B981"),
          tagline="3D online cricket with friends, in the browser.",
          sub="Private rooms · authoritative game server · ball physics",
@@ -124,30 +124,34 @@ def border_defs(t, gid):
 def banner(t):
     W, H = 1200, 360
     cx, cy = 860, 184
-    orbits = [(122, 48, PROJECTS[0], 24, 0), (160, 68, PROJECTS[2], 36, -14), (192, 92, PROJECTS[1], 48, -30)]
+    orbits = [(122, 48, PROJECTS[0], 24, 0), (160, 68, PROJECTS[2], 36, -14), (192, 92, PROJECTS[1], 48, -30),
+              (208, 118, PROJECTS[3], 60, -44)]
+    still_at = [(1, 0), (-.6, .8), (.3, -1), (.55, .83)]
     orbit_svg = []
     for i, (rx, ry, p, dur, off) in enumerate(orbits):
         pid = f"o{i}"
         d = f"M{cx - rx} {cy} a{rx} {ry} 0 1 0 {2 * rx} 0 a{rx} {ry} 0 1 0 {-2 * rx} 0"
         c = p["dot"]
+        label = escape(p.get("short", p["name"]))
         orbit_svg.append(f'''
     <path id="{pid}" d="{d}" fill="none" stroke="{t['sub']}" stroke-opacity=".22" stroke-width="1.2" stroke-dasharray="3 7">
       <animate attributeName="stroke-dashoffset" values="0;-40" dur="{3 + i}s" repeatCount="indefinite"/>
     </path>
-    <g class="still" transform="translate({cx + [rx, -rx * .6, rx * .3][i]:.0f} {cy + [0, ry * .8, -ry][i]:.0f})"><circle r="6" fill="{c}"/>
-      <text x="12" y="-10" font-family='{MONO}' font-size="16" font-weight="600" fill="{t['ink']}">{p['name']}</text></g>
+    <g class="still" transform="translate({cx + rx * still_at[i][0]:.0f} {cy + ry * still_at[i][1]:.0f})"><circle r="6" fill="{c}"/>
+      <text x="12" y="-10" font-family='{MONO}' font-size="16" font-weight="600" fill="{t['ink']}">{label}</text></g>
     <g class="motion">
       <animateMotion dur="{dur}s" begin="{off}s" repeatCount="indefinite"><mpath href="#{pid}"/></animateMotion>
       <circle r="13" fill="{c}" opacity=".18"><animate attributeName="r" values="9;15;9" dur="2.4s" repeatCount="indefinite"/></circle>
       <circle r="6" fill="{c}"/>
-      <text x="12" y="-10" font-family='{MONO}' font-size="16" font-weight="600" fill="{t['ink']}">{p['name']}</text>
+      <text x="12" y="-10" font-family='{MONO}' font-size="16" font-weight="600" fill="{t['ink']}">{label}</text>
     </g>''')
     roles = ["Full-stack engineer.", "Backend reliability nerd.", "I ship software real people use."]
     role_svg = "".join(
         f'<text class="role role{i}" style="animation-delay:{i * 5}s" x="64" y="214" font-family=\'{SANS}\' font-size="28" '
         f'fill="{t["sub"]}"><tspan fill="{t["cyan"]}" font-family=\'{MONO}\'>&gt; </tspan>{escape(r)}</text>'
         for i, r in enumerate(roles))
-    chips = [("3", "deployed apps"), ("240+", "test files"), ("₹0", "/ month infra")]
+    project_names = escape(", ".join(p["name"] for p in PROJECTS))
+    chips = [(str(len(PROJECTS)), "deployed apps"), ("240+", "test files"), ("₹0", "/ month infra")]
     chip_svg, x = [], 64
     for i, (big, small) in enumerate(chips):
         wdt = 44 + len(big) * 15 + len(small) * 9.4
@@ -157,7 +161,7 @@ def banner(t):
       <text x="{x + 20}" y="300" font-family='{SANS}' font-size="21"><tspan font-weight="800" fill="url(#name)">{big}</tspan><tspan dx="8" fill="{t['sub']}" font-size="18">{small}</tspan></text>
     </g>''')
         x += wdt + 12
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Nikhil Chandrakanti: full-stack engineer who ships software real people use. Projects: RelayForge, HostelConnect, DriveRadar.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Nikhil Chandrakanti: full-stack engineer who ships software real people use. Projects: {project_names}.">
   <style>
     .fade {{ opacity: 0; animation: in .9s cubic-bezier(.2,.7,.2,1) forwards; }}
     @keyframes in {{ from {{ opacity: 0; transform: translateY(10px); }} to {{ opacity: 1; transform: none; }} }}
