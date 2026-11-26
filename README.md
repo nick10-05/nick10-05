@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=4">
-  <img alt="Nikhil Chandrakanti: full-stack engineer who ships software real people use" src="assets/banner-dark.svg?v=4" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nick10-05/nick10-05/main/assets/banner-dark.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nick10-05/nick10-05/main/assets/banner-light.svg?v=5">
+  <img alt="Nikhil Chandrakanti: full-stack engineer who ships software real people use" src="https://raw.githubusercontent.com/nick10-05/nick10-05/main/assets/banner-dark.svg?v=5" width="100%">
 </picture>
 
 <p align="center">
